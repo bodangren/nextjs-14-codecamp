@@ -1,91 +1,126 @@
 # Unit 7: Database Integration
 
 ## Overview
-This unit covers integrating databases with Next.js 14, focusing on Firestore and Cloud SQL. Students will learn how to set up and use Firestore for data storage and management, and explore Cloud SQL as an alternative database solution.
+This unit introduces students to database integration in Next.js applications, focusing on Firestore and Cloud SQL. Students will learn how to set up, interact with, and optimize these databases in the context of a Next.js project.
 
 ## Learning Objectives
-- Set up and configure Firestore in a Next.js 14 project
-- Perform CRUD operations with Firestore
-- Understand data modeling and querying in Firestore
-- Explore Cloud SQL as an alternative database solution
-- Integrate Cloud SQL with Next.js 14 applications
+- Set up and configure Firestore and Cloud SQL for use with Next.js
+- Implement CRUD operations using Firestore and Cloud SQL
+- Design efficient data models for NoSQL (Firestore) and SQL databases
+- Implement data validation and security rules
+- Optimize database queries for performance
+- Handle real-time data with Firestore
+- Implement data migration strategies
+- Apply best practices for database integration in Next.js applications
 
 ## Key Topics
 - Firestore setup and configuration
-- CRUD operations with Firestore
-- Data modeling and querying in Firestore
-- Introduction to Cloud SQL
-- Connecting Next.js 14 applications to Cloud SQL
+- Cloud SQL setup and configuration
+- CRUD operations in Firestore and Cloud SQL
+- Data modeling for NoSQL and SQL databases
+- Firestore security rules
+- Real-time data synchronization with Firestore
+- Query optimization and indexing
+- Data migration between Firestore and Cloud SQL
+- Error handling and data validation
+- Performance considerations in database operations
 
 ## Daily Breakdown
 
 ### Day 52-53: Introduction to Firestore
 - **Main concepts to cover**:
-  - Overview of Firestore and its features
-  - Setting up a Firestore project
-  - Configuring Firestore with a Next.js 14 project
-  - Understanding Firestore data model and collections
+  - Setting up a Firestore project and configuring it for web
+  - Firestore data model (collections and documents)
+  - Basic CRUD operations with Firestore
+  - Firestore security rules
+  - Real-time data synchronization
 - **Practical tasks**:
-  - Set up a Firestore project and integrate it with Next.js 14
-  - Create Firestore collections and documents
-  - Configure Firestore rules for secure data access
+  - Set up a Firestore project
+  - Implement basic CRUD operations in a Next.js application
+  - Create Firestore security rules
+  - Implement real-time data updates
 
-### Day 54-55: CRUD Operations with Firestore
+### Day 54-55: Advanced Firestore and CRUD Operations
 - **Main concepts to cover**:
-  - Performing Create, Read, Update, and Delete (CRUD) operations
-  - Using Firestore SDK for CRUD operations in a Next.js 14 project
-  - Handling real-time updates with Firestore
+  - Complex queries and data filtering
+  - Batch operations and transactions
+  - Implementing pagination
+  - Error handling and data validation
+  - Optimizing Firestore for performance
 - **Practical tasks**:
-  - Implement CRUD operations in a Next.js 14 application
-  - Use Firestore SDK to interact with Firestore collections and documents
-  - Handle real-time data updates and display changes in the UI
+  - Implement complex queries and filtering
+  - Create a paginated list of items
+  - Implement batch write operations
+  - Add error handling and data validation to CRUD operations
+  - Optimize queries using indexes
 
 ### Day 56-57: Data Modeling in Firestore
 - **Main concepts to cover**:
-  - Designing effective data models for Firestore
-  - Structuring data for efficient querying and performance
-  - Understanding Firestore querying capabilities and limitations
+  - NoSQL data modeling principles
+  - Designing efficient Firestore data models
+  - Handling relationships in Firestore
+  - Denormalization and data duplication strategies
+  - Modeling for scalability and performance
 - **Practical tasks**:
-  - Design and implement data models for a sample application
-  - Perform complex queries using Firestore
-  - Optimize data structure for performance and scalability
+  - Design a data model for a complex application
+  - Implement the designed data model in Firestore
+  - Create queries to efficiently retrieve related data
+  - Implement a strategy for keeping denormalized data in sync
 
 ### Day 58-59: Introduction to Cloud SQL
 - **Main concepts to cover**:
-  - Overview of Cloud SQL and its benefits
   - Setting up a Cloud SQL instance
-  - Connecting a Next.js 14 application to Cloud SQL
-  - Performing basic SQL operations with Cloud SQL
+  - Connecting Cloud SQL to a Next.js application
+  - Basic SQL operations (SELECT, INSERT, UPDATE, DELETE)
+  - Implementing an ORM (Prisma) with Cloud SQL
+  - Comparison between Firestore and Cloud SQL use cases
 - **Practical tasks**:
-  - Set up and configure a Cloud SQL instance
-  - Connect a Next.js 14 application to Cloud SQL
-  - Perform basic SQL operations (CREATE, READ, UPDATE, DELETE) with Cloud SQL
+  - Set up a Cloud SQL instance
+  - Connect Cloud SQL to a Next.js application
+  - Implement basic CRUD operations using raw SQL and an ORM
+  - Migrate a portion of the application data from Firestore to Cloud SQL
+  - Implement a strategy for using both Firestore and Cloud SQL in the same application
 
 ## Unit Challenge
-Build a "Next.js 14 Application with Firestore and Cloud SQL" that includes:
-- Integration with Firestore for data storage and real-time updates
-- Implementation of CRUD operations using Firestore
-- Data modeling and efficient querying with Firestore
-- Integration with Cloud SQL for relational data storage
-- Handling data operations with both Firestore and Cloud SQL
+Build a "Next.js Application with Dual Database Integration" that includes:
+- A Firestore database for real-time data (e.g., chat messages, live updates)
+- A Cloud SQL database for structured, relational data (e.g., user profiles, product catalog)
+- CRUD operations for both databases
+- Real-time updates using Firestore
+- Complex queries and pagination using both databases
+- Data validation and error handling
+- A simple admin interface for managing data in both databases
+- A data migration script to move data between Firestore and Cloud SQL
+- Optimized queries and proper indexing for both databases
 
 ### Evaluation criteria:
-- Successful integration of Firestore and Cloud SQL with a Next.js 14 application
-- Implementation of CRUD operations for both Firestore and Cloud SQL
-- Effective data modeling and querying in Firestore
-- Proper use of SQL operations in Cloud SQL
-- Clean and organized code with proper TypeScript typing
+- Successful integration of both Firestore and Cloud SQL with a Next.js application
+- Implementation of efficient CRUD operations for both databases
+- Proper use of Firestore for real-time data and Cloud SQL for relational data
+- Implementation of security measures (Firestore security rules, SQL injection prevention)
+- Efficient data modeling in both NoSQL and SQL contexts
+- Use of TypeScript for type safety in database-related code
+- Implementation of error handling and data validation
+- Evidence of query optimization and proper indexing
+- Clean and organized code with proper separation of concerns
+- Presence of data migration strategy between the two databases
 
 ## Additional Resources
 - Firestore Documentation: [Firestore](https://firebase.google.com/docs/firestore)
 - Cloud SQL Documentation: [Cloud SQL](https://cloud.google.com/sql/docs)
-- Next.js Documentation: [Next.js Data Fetching](https://nextjs.org/docs/basic-features/data-fetching)
-- TypeScript Documentation: [TypeScript](https://www.typescriptlang.org/docs/)
+- Next.js Documentation: [API Routes](https://nextjs.org/docs/api-routes/introduction)
+- Prisma Documentation: [Prisma with PostgreSQL](https://www.prisma.io/docs/getting-started/setup-prisma/start-from-scratch/postgresql-typescript-postgresql)
+- Article: [NoSQL Data Modeling Techniques](https://highlyscalable.wordpress.com/2012/03/01/nosql-data-modeling-techniques/)
+- Video Series: [Firebase Firestore Tutorial](https://www.youtube.com/playlist?list=PL4cUxeGkcC9itfjle0ji1xOZ2cjRGY_WB)
 
 ## Notes for LLM Instructor
-- Emphasize the differences between NoSQL (Firestore) and SQL (Cloud SQL) databases
-- Provide practical examples of integrating Firestore and Cloud SQL with Next.js 14
-- Guide students through the setup and configuration processes for both databases
-- Be prepared to explain and demonstrate complex querying and data modeling techniques
-- Encourage students to think about data security and performance optimization
-- Adapt explanations based on the user’s responses and provide additional examples if needed
+- Emphasize the differences between NoSQL and SQL databases throughout the unit
+- Provide real-world examples of when to use Firestore vs Cloud SQL
+- Guide students through the process of choosing the right database for different scenarios
+- Be prepared to explain complex concepts like data modeling and query optimization
+- Encourage students to think about scalability and performance from the beginning
+- Adapt explanations based on the user's responses and provide additional examples if needed
+- Stress the importance of security in database operations
+- Discuss real-world performance considerations when implementing database operations
+- Provide guidance on using TypeScript effectively with database operations
+- Highlight the benefits and challenges of using multiple databases in a single application
