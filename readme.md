@@ -56,3 +56,5 @@ Please start with an introduction to today's topic and the first chunk of conten
 Remember, the AI is here to assist your learning. Make the most of this interactive experience!
 
 Good luck with your learning journey!
+
+License: CC-by-SA-4.0
