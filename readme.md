@@ -6,17 +6,17 @@ Welcome to this AI-assisted course on Next.js 14, React, TypeScript, and Google 
 
 1. **Review the Syllabus**: Start by reviewing the `syllabus.md` file to understand the course structure and content.
 
-2. **Daily Learning**: For each day of the course:
+2. **Set Up Your Learning Environment**:
+   - Open a new chat with an AI Language Model (like ChatGPT or Claude).
+   - If you're using Claude, take advantage of the new projects feature or custom GPTs to organize all files for one unit together. This will help maintain context throughout your learning session.
+
+3. **Daily Learning**: For each day of the course:
    - Locate the unit plan for the current day in the appropriate unit folder.
    - Find the corresponding lesson plan for the day.
-
-3. **Set Up Your Learning Environment**:
-   - Open a new chat with an AI Language Model (like ChatGPT or Claude). 
-   - Copy and paste the following into the chat:
+   - Copy and paste the following into your chat:
      - The course syllabus
      - The unit plan for the current day
      - The day's lesson plan
-  - This is a perfect situation for a Claude project or a custom GPT. Put the entire unit's files in the project / gpt, post the daily diections (below) into the custom instructions, and then create a new chat for each day.
 
 4. **Start the Lesson**: Begin by telling the LLM: "I'm ready to start today's lesson. Please begin with the first chunk of content."
 
@@ -55,6 +55,33 @@ Please start with an introduction to today's topic and the first chunk of conten
 - Don't hesitate to ask the LLM to explain concepts in different ways if you're struggling.
 
 Remember, the AI is here to assist your learning. Make the most of this interactive experience!
+
+## Contributing
+
+We welcome contributions to improve this course! If you've completed a day's lesson and would like to provide feedback, please follow these steps:
+
+1. At the end of your lesson, ask the LLM:
+   - "What do you think you could have done better in today's lesson?"
+   - "Were there any mistakes or inaccuracies in the information you provided?"
+   - "What concepts did I seem to struggle with or misunderstand?"
+
+2. Compile a comprehensive report with:
+   - Unit number and day number
+   - Brief summary of the lesson content
+   - The LLM's responses to the feedback questions
+   - Your own observations and suggestions for improvement
+   - Any challenges you faced during the lesson
+   - Ideas for enhancing the course content or structure
+
+3. Submit your report:
+   - Go to the "Issues" tab of this GitHub repository
+   - Click on "New Issue"
+   - Use the title format: "Feedback: Unit X Day Y"
+   - Paste your comprehensive report into the issue description
+   - Add relevant labels (e.g., "feedback", "enhancement", "bug" if applicable)
+   - Submit the issue
+
+Your detailed feedback will help us improve the course for future students. We appreciate your time and effort in contributing to the development of this course!
 
 Good luck with your learning journey!
 
