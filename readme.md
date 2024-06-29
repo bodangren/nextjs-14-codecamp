@@ -11,11 +11,12 @@ Welcome to this AI-assisted course on Next.js 14, React, TypeScript, and Google 
    - Find the corresponding lesson plan for the day.
 
 3. **Set Up Your Learning Environment**:
-   - Open a new chat with an AI Language Model (like ChatGPT or Claude).
+   - Open a new chat with an AI Language Model (like ChatGPT or Claude). 
    - Copy and paste the following into the chat:
      - The course syllabus
      - The unit plan for the current day
      - The day's lesson plan
+  - This is a perfect situation for a Claude project or a custom GPT. Put the entire unit's files in the project / gpt, post the daily diections (below) into the custom instructions, and then create a new chat for each day.
 
 4. **Start the Lesson**: Begin by telling the LLM: "I'm ready to start today's lesson. Please begin with the first chunk of content."
 
