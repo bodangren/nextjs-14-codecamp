@@ -36,9 +36,22 @@ These projects are designed to provide hands-on experience with real-world appli
 Each day of the bootcamp typically includes:
 
 1. Lecture and concept introduction
-2. Guided coding exercises
-3. Project work related to the current unit
-4. Code reviews and discussions
+2. Frequent comprehension checks
+3. Guided coding exercises
+4. Project work related to the current unit
+5. Code reviews and discussions
+
+## Instructor Guidelines
+
+To ensure effective learning and adaptability:
+
+1. Conduct comprehension checks frequently, at least after each major concept introduction.
+2. Tailor explanations to the student's background by asking about and utilizing their prior experience.
+3. Adapt the pace and depth of the lesson based on the student's responses to comprehension checks.
+4. Use analogies and comparisons to familiar concepts when introducing new topics.
+5. Encourage students to relate new concepts to their previous programming experience.
+6. Be prepared to provide alternative explanations or examples if the initial approach doesn't resonate.
+7. Regularly ask for feedback on the teaching approach and adjust accordingly.
 
 ## Continuous Projects
 
@@ -49,7 +62,7 @@ In addition to the main projects, you will work on continuous "discussion projec
 - Refactoring existing code to incorporate new concepts
 - Debugging exercises
 
-These discussion projects are integrated into each unit, providing a bridge between theoretical knowledge and practical application in the larger project contexts.
+These discussion projects are integrated into each unit, providing a bridge between theoretical knowledge and practical application in the larger project contexts. Instructors should use these projects as opportunities for additional comprehension checks and to relate new concepts to students' prior experiences.
 
 ## Final Outcome
 
