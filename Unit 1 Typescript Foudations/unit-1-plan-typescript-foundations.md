@@ -14,6 +14,66 @@ By the end of this unit, students should be able to:
 ## Project Context
 Students will continue developing the Personal Blog Application, focusing on implementing TypeScript throughout the project. They will create typed data structures for blog posts, comments, and user profiles, and develop utility functions with proper TypeScript annotations.
 
+### Previous project completion
+The provided structure of the Next.js 14 project consists of several directories and files organized under the main directories: `app`, `content`, `public`, and `scripts`. Below is a detailed description and a tree view of the current project structure:
+
+### Project Structure Description
+1. **app/**: This directory contains the main application code, including components, pages, API routes, and utility functions.
+   - **about/**: Contains a single page component.
+   - **api/**: Contains API routes, specifically for posts.
+   - **blog/**: Contains the main blog page and dynamic routes for individual blog posts.
+   - **components/**: Houses reusable components, such as the layout component.
+   - **utils/**: Contains utility functions like date formatters.
+   - **favicon.ico**: The favicon for the app.
+   - **globals.css**: Global CSS file.
+   - **layout.tsx**: Main layout component for the app.
+   - **page.tsx**: The main page component for the app.
+
+2. **content/**: This directory includes content files, such as markdown files for blog posts.
+   - **blog/**: Contains individual blog posts written in markdown format.
+
+3. **public/**: This directory holds static assets that can be publicly accessed, such as images.
+   - **next.svg**: Static image file.
+   - **vercel.svg**: Static image file.
+
+4. **scripts/**: Contains scripts for various tasks, such as creating new blog posts.
+   - **new-post.js**: Script for generating new blog posts.
+
+### Tree View
+```
+app/
+├── about
+│   └── page.tsx
+├── api
+│   └── posts
+│       └── route.ts
+├── blog
+│   ├── page.tsx
+│   └── [slug]
+│       └── page.tsx
+├── components
+│   └── Layout.tsx
+├── utils
+│   └── dateFormatter.ts
+├── favicon.ico
+├── globals.css
+├── layout.tsx
+└── page.tsx
+
+content/
+└── blog
+    └── frit-psot!.md
+
+public/
+├── next.svg
+└── vercel.svg
+
+scripts/
+└── new-post.js
+```
+
+This structure indicates a well-organized project with clear separation of concerns, making it easy to navigate and maintain.
+
 ## Daily Breakdown
 
 ### Day 4-5: TypeScript basics and blog data structures

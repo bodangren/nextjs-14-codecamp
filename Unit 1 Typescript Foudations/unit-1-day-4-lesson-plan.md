@@ -5,8 +5,8 @@ By the end of this session, students should be able to:
 1. Understand what TypeScript is and its benefits in the context of blog development
 2. Use basic TypeScript types (number, string, boolean, array) in blog-related code
 3. Create and use type annotations for blog data structures
-4. Work with tuple and enum types for blog categories and tags
-5. Use the 'any' and 'unknown' types appropriately in blog development scenarios
+4. Compile and run TypeScript files
+5. Work with tuple and enum types for blog categories and tags
 
 ## Content Chunks
 
@@ -25,7 +25,22 @@ By the end of this session, students should be able to:
 #### Practical Task:
 Guide the student through setting up TypeScript in the existing Next.js blog project and create a simple typed component.
 
-### Chunk 2: Basic Types for Blog Data (45 minutes)
+### Chunk 2: Setting Up and Running TypeScript (30 minutes)
+
+#### Information to Present:
+- Installing TypeScript globally using npm
+- Creating a TypeScript configuration file (tsconfig.json)
+- Compiling TypeScript to JavaScript
+- Running TypeScript files using ts-node
+
+#### Comprehension Check Questions:
+1. What command do we use to compile a TypeScript file?
+2. How can we run a TypeScript file directly without compiling it first?
+
+#### Practical Task:
+Guide the student through creating a simple TypeScript file, compiling it, and running both the compiled JavaScript and the TypeScript file directly using ts-node.
+
+### Chunk 3: Basic Types for Blog Data (45 minutes)
 
 #### Information to Present:
 - Using number type for post IDs, view counts, etc.
@@ -40,7 +55,7 @@ Guide the student through setting up TypeScript in the existing Next.js blog pro
 #### Practical Task:
 Ask the student to create variables for different blog data (post ID, title, content, isPublished) using both type inference and explicit type annotations.
 
-### Chunk 3: Arrays and Tuples in Blog Context (45 minutes)
+### Chunk 4: Arrays and Tuples in Blog Context (45 minutes)
 
 #### Information to Present:
 - Array types for lists of blog posts, comments, or tags
@@ -55,7 +70,7 @@ Ask the student to create variables for different blog data (post ID, title, con
 #### Practical Task:
 Guide the student through creating and manipulating arrays of blog posts and a tuple representing a post's [id, title, publishDate].
 
-### Chunk 4: Enum Type for Blog Categories and Status (30 minutes)
+### Chunk 5: Enum Type for Blog Categories and Status (30 minutes)
 
 #### Information to Present:
 - Using enums for blog post categories
@@ -70,20 +85,6 @@ Guide the student through creating and manipulating arrays of blog posts and a t
 #### Practical Task:
 Ask the student to create enums for blog categories and post status, then use them in a function that filters posts.
 
-### Chunk 5: Any and Unknown Types in Blog Development (30 minutes)
-
-#### Information to Present:
-- The 'any' type and its implications in blog data handling
-- Using 'unknown' for type-safe handling of external blog data (e.g., API responses)
-- Best practices for using 'any' and 'unknown' in the blog application
-
-#### Comprehension Check Questions:
-1. What are the risks of using the 'any' type in our blog application?
-2. How can the 'unknown' type improve type safety when dealing with external blog data?
-
-#### Practical Task:
-Guide the student through scenarios where 'any' and 'unknown' might be used in the blog application, such as handling data from an external API.
-
 ## Extended Coding Challenge (30 minutes)
 
 Create a basic structure for managing blog posts using TypeScript. The system should:
@@ -93,22 +94,25 @@ Create a basic structure for managing blog posts using TypeScript. The system sh
 3. Include a tuple to represent a post's publication info [publishDate: Date, author: string]
 4. Implement a function that filters posts by category
 5. Use type annotations throughout the code
+6. Include console.log statements to display the results
+7. Successfully compile and run the TypeScript file
 
 Evaluation Criteria:
 - Correct use of TypeScript types (enum, array, tuple, basic types)
 - Proper type annotations for blog-related data
 - Functional implementation of the blog post management system
 - Code readability and organization
+- Successful compilation and execution of the TypeScript file
 
 ## Additional Resources
 - TypeScript Handbook (Basic Types): https://www.typescriptlang.org/docs/handbook/basic-types.html
 - TypeScript Playground: https://www.typescriptlang.org/play
-- Next.js with TypeScript: https://nextjs.org/docs/basic-features/typescript
+- ts-node documentation: https://github.com/TypeStrong/ts-node
 
 ## Notes for LLM Instructor
 - Emphasize how TypeScript can prevent common bugs in blog development (e.g., mishandling post data types).
 - Use blog-specific examples to illustrate the practical applications of each type.
 - Encourage students to think about type safety in the context of user-generated content for the blog.
-- Be prepared to explain how TypeScript integrates with Next.js in the blog project.
-- Highlight the importance of choosing the right type for different blog data scenarios.
+- Ensure students are comfortable with the process of writing, compiling, and running TypeScript files before moving on to more complex topics.
+- Provide clear, step-by-step instructions for setting up the TypeScript environment and running TypeScript files.
 - Adapt explanations based on the student's understanding, providing additional blog-centric examples as needed.
